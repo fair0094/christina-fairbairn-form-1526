@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Validation Form Assignment</title>
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--
+    form>fieldset>legend+.box*2>label+input^.box>input[type="button"]
+    -->
+    <form>
+        <fieldset class="wrapper">
+            <legend>Form Assignment</legend>
+             <div class="flex">
+                    <div class="box">
+                        <label for="fullname">Full Name</label>
+                        <br>
+                       
+                        <input class="stretch" type="text" id="fullname">
+                         
+                    </div>
+                    <div class="box">
+                        <label for="email">Email</label>
+                        <br>
+                        <input class="stretch" type="text" id="email">
+                    </div>
+            </div>
+            
+            <div class="box">
+            <label for="message">Message</label>
+            <br>
+            </div>
+            <textarea rows = "4" cols = "25" id="message"></textarea>
+            
+            
+            <div class="blue">
+                <div class="box">
+                    <input type="button" class="button size" value="Submit" id="collect">
+                </div>
+            </div>    
+        </fieldset>
+    </form>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
